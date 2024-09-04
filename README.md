@@ -1,10 +1,10 @@
 # CPA (Closest Point of Aproach)
-Bu proje, belirli bir alan içerisinde hareket eden gemilerin birbirlerine olan en yakın mesafelerini ve bu yakınlaşmanın gerçekleşeceği zamanı hesaplayan bir sistem geliştirmeyi amaçlamaktadır. Proje, gemilerden alınan kinematik verileri işleyerek, her iki gemi arasında en yakın mesafeyi hesaplar ve sonuçları bildirir.
+Bu proje, belirli bir alan içerisinde hareket eden gemilerin birbirlerine olan en yakın mesafelerini ve bu yakınlaşmanın gerçekleşeceği zamanı hesaplayan bir sistem geliştirmeyi amaçlamaktadır. Proje, gemilerden her saniye alınan kinematik verileri işleyerek, her ikili gemi grubu için bu iki geminin gelecekte birbirine en yakın olduğunda aralarındaki mesafeyi ve zamanı hesaplar ve bu bilgileri yayınlar.
 
 <details>
     <summary><h2>Yakınlaşma Hesap Uygulaması (CPA Uygulaması)</h2></summary>
 
-  ### Kinematik Bilgi Karşılaştırması: 
+### Kinematik Bilgi Karşılaştırması: 
 Bir gemiden kinematik bilgi alındığında, bu bilgi diğer tüm gemilerin kinematik bilgileri ile karşılaştırılır. Her iki gemi çifti için, bu iki geminin gelecekte birbirine en yakın olduğu an ve bu anda aralarındaki mesafe hesaplanır.
 
 ### Sonuçların Yayınlanması: 
